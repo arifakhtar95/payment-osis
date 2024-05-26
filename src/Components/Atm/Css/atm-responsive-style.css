@@ -1,0 +1,333 @@
+/* This Media Query Will Works From 911 to 768  Start*/
+@media screen and (max-width: 991px) and (min-width: 768px) {
+/* ATM SOLUTION Section 1  Start*/
+/* Free Placement Program */
+.atm-section-1-outer .text-box h4{
+font-size: 30px;
+}
+.atm-section-1-outer .text-box p{
+font-size: 14px;
+line-height: 28px;
+}
+.atm-section-1-outer .text-box button{
+margin-top: 10px;
+}
+/* Free Placement Program */
+/* ATM SOLUTION Section 1  End*/
+/* *********************************** */
+/* ATM SOLUTION Section 2  Start */
+/* ATM Leasing / Events */
+.atm-section-2-outer .text-box h4{
+font-size: 30px;
+}
+.atm-section-2-outer .text-box p{
+font-size: 14px;
+line-height: 28px;
+}
+.atm-section-2-outer .text-box button{
+margin-top: 10px;
+}
+/* ATM Leasing / Events */
+/* ATM SOLUTION Section 2  End*/
+/* *********************************** */
+/* ATM SOLUTION Section 3  Start*/
+/* Our Guarantee */
+
+.atm-section-3-outer .text-box h4{
+font-size: 30px;
+}
+.atm-section-3-outer .text-box p{
+font-size: 14px;
+line-height: 28px;
+}
+.atm-section-3-outer .text-box button{
+margin-top: 10px;
+}
+/* Our Guarantee */
+/* ATM SOLUTION Section 3  End*/
+/* ************************************* */
+/* ATM SOLUTION Section 4 Start */
+/* Bitcoin ATM */
+.atm-section-4-outer .text-box h4{
+font-size: 30px;
+}
+.atm-section-4-outer .text-box p{
+font-size: 14px;
+line-height: 28px;
+}
+.atm-section-4-outer .text-box button{
+margin-top: 10px;
+}
+/* Bitcoin ATM */
+/* ATM SOLUTION Section 4 End */
+/* ******************************** */
+}
+/* This Media Query Will Works From 911 to 768  End */
+
+/* ************************************************************** */
+
+/* This Media Query Will Works From 767 to 481  Start */
+@media screen and (max-width: 767px) and (min-width: 481px) {
+/* ATM SOLUTION Section 1  Start*/
+/* Free Placement Program */
+.atm-section-1-outer .text-box{
+width: 80%;
+margin: 40px auto 0;
+}
+.atm-section-1-outer .text-box h4{
+font-size: 30px;
+}
+.atm-section-1-outer .text-box p{
+font-size: 14px;
+line-height: 28px;
+}
+.atm-section-1-outer .text-box button{
+margin-top: 10px;
+}
+.atm-section-1-outer .atm-image-section{
+width: 80%;
+margin: 0 auto;
+padding: 0;
+}
+.atm-section-1-outer .atm-image-section img{
+padding: 0;
+width: 100%;
+}
+/* Free Placement Program */
+/* ATM SOLUTION Section 1  End*/
+/* *********************************** */
+/* ATM SOLUTION Section 2  Start */
+/* ATM Leasing / Events */
+.atm-section-2-outer .text-box{
+width: 80%;
+margin: 0 auto 40px;
+padding: 0;
+}
+.atm-section-2-outer .text-box h4{
+font-size: 30px;
+}
+.atm-section-2-outer .text-box p{
+font-size: 14px;
+line-height: 28px;
+padding: 0;
+}
+.atm-section-2-outer .text-box button{
+margin-top: 10px;
+}
+.atm-section-2-outer .atm-image-section{
+width: 80%;
+margin: 0 auto;
+padding: 0;
+}
+.atm-section-2-outer .atm-image-section img{
+width: 100%;
+padding: 0;
+margin: 0;
+}
+/* ATM Leasing / Events */
+/* ATM SOLUTION Section 2  End*/
+/* *********************************** */
+/* ATM SOLUTION Section 3  Start*/
+/* Our Guarantee */
+.atm-section-3-outer .atm-image-section{
+width: 80%;
+margin: 0 auto 40px;
+padding: 0;
+}
+.atm-section-3-outer .atm-image-section img{
+width: 100%;
+padding: 0;
+}
+.atm-section-3-outer .text-box{
+width: 80%;
+margin: 0 auto;
+padding: 0;
+}
+.atm-section-3-outer .text-box h4{
+font-size: 30px;
+}
+.atm-section-3-outer .text-box p{
+font-size: 14px;
+line-height: 28px;
+}
+.atm-section-3-outer .text-box button{
+margin-top: 10px;
+}
+/* Our Guarantee */
+/* ATM SOLUTION Section 3  End*/
+/* ************************************* */
+/* ATM SOLUTION Section 4 Start */
+/* Bitcoin ATM */
+.atm-section-4-outer .text-box{
+width: 80%;
+margin: 0 auto 40px;
+padding: 0;
+}
+.atm-section-4-outer .atm-image-section{
+width: 80%;
+margin: 0 auto;
+}
+.atm-section-4-outer .atm-image-section img{
+width: 100%;
+padding: 0;
+}
+.atm-section-4-outer .text-box h4{
+font-size: 30px;
+}
+.atm-section-4-outer .text-box p{
+font-size: 14px;
+line-height: 28px;
+}
+.atm-section-4-outer .text-box button{
+margin-top: 10px;
+}
+/* Bitcoin ATM */
+/* ATM SOLUTION Section 4 End */
+/* ******************************** */
+}
+/* This Media Query Will Works From 767 to 481  End */
+
+/* ************************************************************* */
+
+/* This Media Query Will Works From 480 to 320  Start */
+@media screen and (max-width: 480px) and (min-width: 320px){
+/* ATM SOLUTION Section 1  Start*/
+/* Free Placement Program */
+.atm-section-1-outer{
+padding: 30px 0;
+}
+.atm-section-1-outer .text-box{
+width: 94%;
+margin: 30px auto 0;
+}
+.atm-section-1-outer .text-box h4{
+font-size: 22px;
+}
+.atm-section-1-outer .text-box p{
+font-size: 16px;
+line-height: 25px;
+}
+.atm-section-1-outer .text-box button{
+margin-top: 0;
+padding: 6px 15px;
+font-size: 13px;
+}
+.atm-section-1-outer .atm-image-section{
+width: 94%;
+margin: 0 auto;
+padding: 0;
+}
+.atm-section-1-outer .atm-image-section img{
+width: 100%;
+padding: 0;
+}
+/* Free Placement Program */
+/* ATM SOLUTION Section 1  End*/
+/* *********************************** */
+/* ATM SOLUTION Section 2  Start */
+/* ATM Leasing / Events */
+.atm-section-2-outer{
+padding: 30px 0;
+margin-bottom: 35px;
+}
+.atm-section-2-outer .text-box{
+width: 94%;
+margin: 0 auto 30px;
+padding: 0;
+}
+.atm-section-2-outer .text-box h4{
+font-size: 22px;
+}
+.atm-section-2-outer .text-box p{
+font-size: 16px;
+line-height: 25px;
+padding: 0;
+}
+.atm-section-2-outer .text-box button{
+margin-top: 0;
+padding: 6px 15px;
+font-size: 13px;
+}
+.atm-section-2-outer .atm-image-section{
+width: 94%;
+margin: 0 auto;
+padding: 0;
+}
+.atm-section-2-outer .atm-image-section img{
+width: 100%;
+padding: 0;
+margin: 0;
+}
+/* ATM Leasing / Events */
+/* ATM SOLUTION Section 2  End*/
+/* *********************************** */
+/* ATM SOLUTION Section 3  Start*/
+/* Our Guarantee */
+.atm-section-3-outer{
+padding:  0 0 30px 0;
+}
+.atm-section-3-outer .atm-image-section{
+width: 94%;
+margin: 0 auto 30px;
+padding: 0;
+}
+.atm-section-3-outer .atm-image-section img{
+width: 100%;
+padding: 0;
+}
+.atm-section-3-outer .text-box{
+width: 94%;
+margin: 0 auto;
+padding: 0;
+}
+.atm-section-3-outer .text-box h4{
+font-size: 22px;
+}
+.atm-section-3-outer .text-box p{
+font-size: 16px;
+line-height: 25px;
+}
+.atm-section-3-outer .text-box button{
+margin-top: 0;
+padding: 6px 15px;
+font-size: 13px;
+}
+/* Our Guarantee */
+/* ATM SOLUTION Section 3  End*/
+/* ************************************* */
+/* ATM SOLUTION Section 4 Start */
+/* Bitcoin ATM */
+.atm-section-4-outer{
+padding: 30px 0;
+margin-bottom: 40px;
+}
+.atm-section-4-outer .text-box{
+width: 94%;
+margin: 0 auto 30px;
+padding: 0;
+}
+.atm-section-4-outer .atm-image-section{
+width: 94%;
+margin: 0 auto;
+}
+.atm-section-4-outer .atm-image-section img{
+width: 100%;
+padding: 0;
+}
+.atm-section-4-outer .text-box h4{
+font-size: 22px;
+}
+.atm-section-4-outer .text-box p{
+font-size: 16px;
+line-height: 25px;
+}
+.atm-section-4-outer .text-box button{
+margin-top: 0;
+padding: 6px 15px ;
+font-size: 13px;
+}
+/* Bitcoin ATM */
+/* ATM SOLUTION Section 4 End */
+/* ******************************** */
+}
+/* This Media Query Will Works From 480 to 320  End */

@@ -1,0 +1,73 @@
+.blog-card-outer{
+padding: 90px 0;
+}
+.blog-card-outer .card{
+width: 100%;
+border: none;
+padding: 0 10px;
+}
+.blog-card-outer .card .card-img-top{
+width: 100%;
+}
+.blog-card-outer .card .card-body{
+padding: 15px 0;
+}
+.blog-card-outer .card .card-body .card-title{
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.blog-card-outer .card .card-body .card-text{
+font-size: 16px;
+color: #9a9a9a;
+font-weight: 500;
+line-height: 25px;
+margin-bottom: 30px;
+}
+.blog-card-outer .card .card-body .btn{
+font-size: 15px;
+color: #fff;
+font-weight: 600;
+text-transform: uppercase;
+transition: linear all 0.3s;
+margin: 0 0 20px;
+background: #2b8ded;
+border: 2px solid #2b8ded;
+padding: 8px 30px;
+border-radius: 50px;
+transition: linear all 0.3s;
+}
+.blog-card-outer .card .card-body .btn:hover{
+background: #fff;
+color: #2b8ded;
+transition: linear all 0.3s;
+}
+
+/* This Media Query Will Work Width from 480 to 320  Start*/
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+.blog-card-outer{
+padding: 40px 0;
+}
+.blog-card-outer .card{
+width: 90%;
+margin: 0 auto;
+border: none;
+padding: 0 ;
+}
+.blog-card-outer .card .card-body .card-title{
+font-size: 22px;
+margin-bottom: 10px;
+}
+.blog-card-outer .card .card-body .card-text{
+font-size: 15px;
+margin-bottom: 15px;
+}
+.blog-card-outer .card .card-body .btn{
+padding: 6px 15px;
+font-size: 13px;
+}
+
+
+}
+

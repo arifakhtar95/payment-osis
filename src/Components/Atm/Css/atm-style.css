@@ -1,0 +1,179 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+padding: 0;
+margin: 0;
+/* overflow-x: hidden; */
+}
+/* ATM SOLUTION Section 1  Start*/
+/* Free Placement Program */
+.atm-section-1-outer{
+padding: 90px 0;
+}
+.atm-section-1-outer .atm-image-section img{
+width: 100%;
+padding: 0 0 0 15px;
+}
+.atm-section-1-outer .text-box{
+padding: 0;
+}
+.atm-section-1-outer .text-box h4{
+font-weight: 700;
+font-size: 42px;
+color: #242f51;
+padding: 0;
+}
+.atm-section-1-outer .text-box p{
+font-size: 16px;
+color: #616368;
+font-weight: 500;
+}
+.atm-section-1-outer .text-box button{
+background: transparent;
+border: 2px solid #2b8ded;
+padding: 8px 30px;
+border-radius: 50px;
+margin-top: 20px;
+font-size: 16px;
+color: #2b8ded;
+font-weight: 700;
+text-transform: uppercase;
+transition: linear all 0.3s;
+}
+.atm-section-1-outer .text-box button:hover{
+background-color: #2b8ded;
+color: #ffffff;
+}
+/* Free Placement Program */
+/* ATM SOLUTION Section 1  End*/
+/* ******************************** */
+/* ATM SOLUTION Section 2  Start*/
+/* ATM Leasing / Events */
+.atm-section-2-outer{
+padding: 90px 0;
+margin-bottom: 90px;
+background-color: #eaf3fa;
+}
+.atm-section-2-outer .text-box{
+padding: 0 0 0 15px;
+}
+.atm-section-2-outer .text-box h4{
+font-weight: 700;
+font-size: 42px;
+color: #242f51;
+}
+.atm-section-2-outer .text-box p{
+font-size: 18px;
+color: #616368;
+font-weight: 400;
+}
+.atm-section-2-outer .text-box button{
+background: transparent;
+border: 2px solid #2b8ded;
+padding: 8px 30px;
+border-radius: 50px;
+margin-top: 20px;
+font-size: 16px;
+color: #2b8ded;
+font-weight: 700;
+text-transform: uppercase;
+transition: linear all 0.3s;
+}
+.atm-section-2-outer .text-box button:hover{
+background-color: #2b8ded;
+color: #ffffff;
+}
+.atm-section-2-outer .atm-image-section img{
+width: 100%;
+border-style: none;
+}
+/* ATM Leasing / Events */
+/* ATM SOLUTION Section 2  End*/
+/* ********************************* */
+/* ATM SOLUTION Section 3  Start*/
+/* Our Guarantee */
+.atm-section-3-outer{
+padding: 0 0 90px 0;
+}
+.atm-section-3-outer .atm-image-section img{
+width: 100%;
+border-style: none;
+}
+.atm-section-3-outer .text-box{
+padding: 0;
+}
+.atm-section-3-outer .text-box h4{
+font-weight: 700;
+font-size: 42px;
+color: #242f51;
+}
+.atm-section-3-outer .text-box p{
+font-size: 18px;
+color: #616368;
+font-weight: 400;
+}
+.atm-section-3-outer .text-box button{
+background: transparent;
+border: 2px solid #2b8ded;
+padding: 8px 30px;
+border-radius: 50px;
+margin-top: 20px;
+font-size: 16px;
+color: #2b8ded;
+font-weight: 700;
+text-transform: uppercase;
+transition: linear all 0.3s;
+}
+.atm-section-3-outer .text-box button:hover{
+background-color: #2b8ded;
+color: #ffffff;
+}
+/* Our Guarantee */
+/* ATM SOLUTION Section 3  End*/
+/* ********************************* */
+/* ATM SOLUTION Section 4  Start*/
+/* Bitcoin ATM */
+.atm-section-4-outer{
+padding: 80px 0;
+margin-bottom: 90px;
+background-color: #eaf3fa;
+}
+.atm-section-4-outer .text-box{
+padding: 0 0 0 15px;
+}
+.atm-section-4-outer .text-box h4{
+font-weight: 700;
+font-size: 42px;
+color: #242f51;
+}
+.atm-section-4-outer .text-box p{
+font-size: 18px;
+color: #616368;
+font-weight: 400;
+}
+.atm-section-4-outer .text-box button{
+background: transparent;
+border: 2px solid #2b8ded;
+padding: 8px 30px;
+border-radius: 50px;
+margin-top: 20px;
+font-size: 16px;
+color: #2b8ded;
+font-weight: 700;
+text-transform: uppercase;
+transition: linear all 0.3s;
+}
+.atm-section-4-outer .text-box button:hover{
+background-color: #2b8ded;
+color: #ffffff;
+}
+.atm-section-4-outer .atm-image-section img{
+width: 100%;
+border-style: none;
+}
+/* Bitcoin ATM */
+/* ATM SOLUTION Section 4  End*/
+/* ******************************** */

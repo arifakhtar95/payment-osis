@@ -1,0 +1,456 @@
+/* Merchant Section 1 Start */
+/* Select Your Plan */
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+.merchant-section-one-outer{
+background: linear-gradient(180deg, rgba(234,243,250,1) 50%, rgba(255,255,255,1) 50% ) ;
+padding: 75px 0;
+}
+.merchant-section-one-outer .merchant-section-inner{
+text-align: center;
+}
+.merchant-section-one-outer .merchant-section-inner h4{
+font-size: 35px;
+color: #242f51;
+font-weight: 700;
+margin: 0 0 25px;
+text-align: center;
+}
+.merchant-section-one-outer .merchant-section-inner p{
+font-size: 24px;
+color: #616368;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+}
+.merchant-section-one-outer .merchant-section-inner span{
+font-size: 20px;
+color: #616368;
+font-weight: 500;
+display: block;
+}
+.merchant-section-one-outer .card:hover{
+box-shadow: 0 0 20px 1px rgba(1, 1, 1, 0.06);
+border: 1px solid #ccc;
+transform: linear all 0.3s;
+background-color: #fff;
+/* background-color: #242f51; */
+}
+
+.merchant-section-one-outer .card{
+padding: 45px;
+background-color: transparent;
+border: 1px solid #ebebeb;
+border-radius: 8px;
+box-shadow: 0 0 20px 1px rgba(1, 1, 1, 0.04);
+}
+.merchant-section-one-outer .card h3{
+font-size: 27px;
+color: #242f51;
+font-weight: 600;
+text-transform: uppercase;
+text-align: center;
+}
+.merchant-section-one-outer .card h1{
+color: #2b8ded;
+font-size: 60px;
+font-weight: 600;
+text-align: center;
+margin: 0 0 25px;
+}
+.merchant-section-one-outer .card span{
+color: #999ca5;
+font-size: 20px;
+font-weight: 500;
+}
+.merchant-section-one-outer .card p{
+color: #000;
+font-size: 17px;
+font-weight: 400;
+text-align: left;
+margin: 0 0 0 0;
+}
+.merchant-section-one-outer .card ul{
+padding: 0;
+margin: 25px 0;
+}
+.merchant-section-one-outer .card ul li{
+list-style: none;
+margin: 10px 0;
+color: #5e5e5e;
+font-size: 15px;
+}
+.merchant-section-one-outer .card button{
+background-color: #2b8ded;
+padding: 8px 30px;
+color: #fff;
+font-size: 16px;
+font-weight: 700;
+border: 1px solid #2b8ded;
+border-radius: 50px;
+text-align: center;
+display: block;
+transition: linear all 0.3s;
+text-transform: uppercase;
+margin: 0 auto;
+}
+.merchant-section-one-outer .card button:hover{
+background-color: transparent;
+border: 1px solid #2b8ded;
+transition: linear all 0.3s;    
+color: #2b8ded;
+}
+/* Select Your Plan */
+/* Merchant Section 1 End */
+/* ****************************************** */
+/* Merchant Sectipon 2 Start */
+/* How It works */
+.merchant-section-two-outer{
+padding: 30px 0 90px 0;
+}
+.merchant-section-two-outer .image-section img{
+width: 100%;
+}
+.merchant-section-two-outer .text-section{
+padding: 10px 10px;
+text-align: left;
+}
+.merchant-section-two-outer .text-section h4{
+color: #242f51;
+font-size: 32px;
+font-weight: 700;
+margin: 0 0 15px 0;
+padding: 0;
+}
+.merchant-section-two-outer .text-section ul{
+padding: 0;
+}
+.merchant-section-two-outer .text-section ul li{
+padding: 0 16px;
+margin: 0 0 12px 12px;
+font-size: 17px;
+color: #364d68;
+font-weight: 500;
+}
+.merchant-section-two-outer .text-section ul li::marker{
+content: "\2714";
+font-size: 17px;
+color: #1841f4;
+}
+.merchant-section-two-outer .text-section p{
+color: #364d68;
+font-size: 16px;
+font-weight: 500;
+line-height: 25px;
+margin-bottom: 1rem;
+}
+
+.merchant-section-two-outer .text-section button:hover{
+background: #2b8ded;
+transition: linear all 0.3s;
+color: #fff;
+}
+.merchant-section-two-outer .text-section button{
+font-size: 16px;
+color: #2b8ded;
+font-weight: 700;
+text-transform: uppercase;
+transition: linear all 0.3s;
+background: #fff;
+border: 2px solid #2b8ded;
+padding: 8px 30px;
+border-radius: 50px;
+margin: 20px 0px;
+}
+/* How It works */
+/* Merchant Sectipon 2 End */
+/* ************************************************** */
+/* Merchant Sectipon 3 Start */
+/* Our Guarantee */
+.merchant-section-three-outer {
+padding:0 0 90px 0;
+}
+.merchant-section-three-outer .image-section img{
+width: 100%;
+}
+.merchant-section-three-outer .text-section{
+padding: 60px 30px 30px 0;
+text-align: left;
+}
+.merchant-section-three-outer .text-section h4{
+color: #242f51;
+font-size: 40px;
+font-weight: 700;
+margin: 0 0 15px 0;
+padding: 0;
+}
+.merchant-section-three-outer .text-section p{
+color: #364d68;
+font-size: 16px;
+font-weight: 500;
+line-height: 25px;
+margin-bottom: 1rem;
+}
+
+.merchant-section-three-outer .text-section button:hover{
+background: #2b8ded;
+transition: linear all 0.3s;
+color: #fff;
+}
+.merchant-section-three-outer .text-section button{
+font-size: 16px;
+color: #2b8ded;
+font-weight: 700;
+text-transform: uppercase;
+transition: linear all 0.3s;
+background: #fff;
+border: 2px solid #2b8ded;
+padding: 8px 30px;
+border-radius: 50px;
+margin: 20px 0px;
+}
+/* Our Guarantee */
+/* Merchant Section 3 End */
+/* ********************************* */
+/* Merchant Section 4 Start */
+/* Interchange Rates */
+.merchant-section-four-outer {
+padding: 90px 0 90px 0;
+background-color: #eaf3fa;
+}
+.merchant-section-four-outer .image-section img{
+width: 100%;
+}
+.merchant-section-four-outer .text-section{
+padding: 60px 30px 0 30px;
+text-align: left;
+}
+.merchant-section-four-outer .text-section h4{
+color: #242f51;
+font-size: 40px;
+font-weight: 700;
+margin: 0 0 15px 0;
+padding: 0;
+}
+.merchant-section-four-outer .text-section p{
+color: #364d68;
+font-size: 16px;
+font-weight: 500;
+line-height: 25px;
+margin-bottom: 1rem;
+}
+.merchant-section-four-outer .text-section button:hover{
+background: #2b8ded;
+transition: linear all 0.3s;
+color: #fff;
+}
+.merchant-section-four-outer .text-section button{
+font-size: 16px;
+color: #2b8ded;
+font-weight: 700;
+text-transform: uppercase;
+transition: linear all 0.3s;
+background-color: transparent;
+border: 2px solid #2b8ded;
+padding: 8px 30px;
+border-radius: 50px;
+margin: 20px 0px;
+}
+/* Interchange Rates */
+/* Merchant Section 4 End */
+/* ************************************** */
+
+/* =============== Responsive Css  */
+/* This Media Query Will work From  991 to 768 */
+@media screen and (max-width: 991px) and (min-width:768px) {
+/* Merchant Section 1 Start */
+.merchant-section-one-outer{
+background: linear-gradient(180deg, rgba(234,243,250,1) 100%, rgba(255,255,255,1) 0% ) ;
+padding: 75px 0;
+}
+.merchant-section-one-outer .card{
+box-shadow: 0 0 20px 1px rgba(1, 1, 1, 0.2);
+margin-bottom: 25px;
+}
+/* Merchant Section 1 End */
+/* ************************************ */
+/* Merchant Section 3 Start */
+.merchant-section-three-outer .text-section{
+padding: 0 0 0 10px;
+}
+/* Merchant Section 3 End */
+/* ******************************* */   
+/* MerChant Section 4 Start */
+.merchant-section-four-outer .text-section{
+padding: 60px 10px 0 10px;
+}
+
+
+/* MerChant Section 4 End */
+}
+
+@media screen and (max-width: 767px) and (min-width:481px){
+/* Merchant Section 1 Start */
+.merchant-section-one-outer{
+background: linear-gradient(180deg, rgba(234,243,250,1) 100%, rgba(255,255,255,1) 0% ) ;
+padding: 75px 0;
+}
+.merchant-section-one-outer .card{
+box-shadow: 0 0 20px 1px rgba(1, 1, 1, 0.2);
+margin-bottom: 25px;
+}
+/* Merchant Section 1 End */
+/* ********************************* */
+/* Merchant Section  2  Start*/
+.merchant-section-two-outer{
+    padding: 25px  0 30px 0;
+}
+.merchant-section-two-outer .text-section{
+    padding: 25px 0 0 0;
+}
+/* Merchant Section  2  End*/
+/* ****************************************** */
+/* MerChant Section 3 Start */
+.merchant-section-three-outer{
+padding: 0  0 50px 0;
+}
+.merchant-section-three-outer .text-section{
+padding: 0;
+}
+.merchant-section-four-outer .text-section h4{
+    font-size: 35px;
+}
+/* MerChant Section 3 End */
+/* ****************************** */
+/* MerChant Section 4 Start */
+.merchant-section-four-outer{
+padding: 40px 0;
+}
+.merchant-section-four-outer .text-section h4{
+font-size: 35px;
+}
+/* MerChant Section 4 End */
+/* ********************************************* */
+}
+
+@media screen and (max-width: 480px) and (min-width:320px){
+/* Merchant Section 1 Start */
+.merchant-section-one-outer{
+background: linear-gradient(180deg, rgba(234,243,250,1) 100%, rgba(255,255,255,1) 0% ) ;
+padding: 30px 0;
+}
+.merchant-section-one-outer .merchant-section-inner{
+padding: 0 10px;
+}
+.merchant-section-one-outer .merchant-section-inner h4{
+font-size: 22px;
+}
+.merchant-section-one-outer .merchant-section-inner p{
+font-size: 19px;
+}
+.merchant-section-one-outer .merchant-section-inner span{
+font-size: 16px;
+}
+.merchant-section-one-outer .card{
+box-shadow: 0 0 20px 1px rgba(1, 1, 1, 0.2);
+margin-bottom: 25px;
+padding: 30px 25px;
+}
+.merchant-section-one-outer .card h3{
+font-size: 22px;
+}
+.merchant-section-one-outer .card h1{
+font-size: 40px;
+}
+.merchant-section-one-outer .card span{
+font-size: 16px;
+}
+.merchant-section-one-outer .card p{
+font-size: 16px;
+font-weight: 400;
+}
+.merchant-section-one-outer .card ul{
+margin: 10px 0 20px;
+}
+.merchant-section-one-outer .card ul li{
+font-size: 15px;
+font-weight: 500;
+}
+/* Merchant Section 1 End */
+/* ************************ */
+/* Merchant Section 2 Start */
+.merchant-section-two-outer{
+padding: 30px 0 30px 0;
+}
+.merchant-section-two-outer .text-section{
+padding: 25px 0 0 0;
+}
+.merchant-section-two-outer .text-section h4{
+font-size: 22px;
+}
+.merchant-section-two-outer .text-section ul li{
+font-size: 15px;
+}
+.merchant-section-two-outer .text-section ul li::marker{
+font-size: 15px;
+padding: 0;
+}
+.merchant-section-two-outer .text-section p{
+font-size: 15px;
+line-height: 25px;
+}
+.merchant-section-two-outer .text-section button{
+font-size: 13px;
+padding: 6px 15px;
+margin: 10px  0;
+}
+/* Merchant Section 2 End */
+/* ******************************** */
+/* Merchant Section 3  Start */
+.merchant-section-three-outer{
+padding: 0 0 30px 0;
+}
+.merchant-section-three-outer .text-section{
+padding: 0 0 25px 0;
+}
+.merchant-section-three-outer .text-section h4{
+font-size: 22px;
+font-weight: 700;
+}
+.merchant-section-three-outer .text-section p{
+font-size: 15px;
+line-height: 25px;
+}
+.merchant-section-three-outer .text-section button{
+font-size: 13px;
+padding: 6px 15px;
+margin: 10px  0 10px;
+}
+/* Merchant Section 3  end */
+/* ************************************** */
+/* Merchant Section 4  Start */
+.merchant-section-four-outer {
+padding: 30px 0;
+}
+.merchant-section-four-outer .text-section{
+padding: 0;
+}
+.merchant-section-four-outer .text-section h4{
+font-size: 22px;
+padding: 15px 0 0 0 ;
+}
+.merchant-section-four-outer .text-section p{
+font-size: 15px;
+line-height: 25px;
+}
+.merchant-section-four-outer .text-section button{
+font-size: 13px;
+padding: 6px 15px;
+margin: 10px  0 10px;
+}
+/* Merchant Section 4  End */
+/* ************************************* */
+}

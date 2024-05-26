@@ -1,0 +1,124 @@
+/* ** Footer Section Start ** */
+.footer-outer{
+background-color: #242f51;
+}
+.call-today{
+padding: 50px 10px;
+color: #ffffff;
+}
+.call-today  p{
+font-size: 15px;
+}    
+.call-today h2 {
+color: #ffffff;
+font-size: 32px;
+font-weight: 600;
+}
+.call-today button{
+padding: 9px 25px;
+background-color: #2b8ded;
+border-radius: 25px;
+font-size: 20px;
+font-weight: 600;
+color: #ffffff;
+border: 2px solid #2b8ded;
+text-transform: uppercase;
+font-family: bold;
+transition: 0.7s;
+}
+.call-today button:hover{
+background-color: #ffffff;
+transition: 0.7s;
+color: #242f51;
+}
+
+/*  Footer List */
+.footer-list{
+padding: 15px;
+margin: 0;
+}
+.footer-list h6{
+color: #e0effd;
+font-size: 15px;
+padding: 0 0 15px;
+}
+.footer-list ul{
+padding: 0;
+}
+.footer-list ul li{
+overflow: hidden;
+list-style: none;
+color: #e0effd;
+}
+.footer-list ul li a{
+color: #f3f9ff;
+padding-bottom: 15px;
+text-decoration: none;
+font-size: 15px;
+transition: 0.5s;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 100;
+}
+.footer-list ul li a:hover{
+color: #007bff;
+transition: 0.5s;
+}
+.footer-list .fa ,.fa-phone{
+width: 15px;
+height: 15px;
+color: #ffffff;
+font-size: 17px;
+margin-right: 5px;
+}
+.footer-list .fa-facebook,.fa-twitter,.fa-instagram{
+margin-top: 10px;
+margin-right: 5px;
+transition: 0.5s;
+}
+.footer-list .fa:hover{
+color: #007bff;
+transition: 0.5s;
+}
+.footer-list .visa-card ul{
+padding: 0;
+}
+.footer-list .visa-card ul li figure img{
+width: 100%;
+}   
+
+/* ** Footer Section End ** */
+
+/* Media Query from 767px to 481px  Start*/
+@media screen and (max-width: 767px) and (min-width: 481px){
+.footer-list .visa-card ul li figure img{
+width: 50%;
+}
+
+
+}
+/* Media Query from 767px to 481px  End*/
+/* ************************************************************ */
+/* Media Query from 480px to 320px  Start*/
+@media screen and (max-width: 480px) and (min-width: 320px){
+.call-today{
+padding: 15px 10px;
+color: #ffffff;
+}
+.call-today  p{
+    font-size: 13px;
+}    
+.call-today h2 {
+font-size: 20px;
+font-weight: 600;
+}
+.call-today button{
+padding: 6px 12px;
+font-size: 15px;
+font-weight: 400;
+}
+.footer-list .visa-card ul li figure img{
+    width: 50%;
+}
+
+}
+/* Media Query from 480px to 320px  End*/

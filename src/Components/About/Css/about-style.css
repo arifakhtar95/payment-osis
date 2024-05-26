@@ -1,0 +1,479 @@
+
+/* About Page Section 1 Start  */
+/* About Us Banner Section */
+.about-us-banner{
+background-image: url("../Images/about-header-bg.jpg");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+/* height: 400px; */
+}
+/* .about-us-banner .about-us-banner-title{
+} */
+.about-us-banner .about-us-banner-title h4{
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+color: #ffffff;
+padding: 165px 15px;
+}
+/* About Us Banner Section */
+/* About Page Section 1 End  */
+/* ************************************* */
+/* About Page Section 2 Start  */
+.about-section-2-outer{
+padding: 90px 0;
+}
+/* .about-us-image-section{
+} */
+.about-us-image-section img{
+border-style: none;
+max-width: 100%;
+height: auto;
+}
+.about-us-text-section{
+padding: 0 0 0 40px;
+}
+.about-us-text-section h4{
+font-size: 32px;
+margin: 0;
+padding: 0 0 15px 0;
+font-weight: 700;
+color: #242f51;
+}
+.about-us-text-section p{
+font-size: 15px;
+margin-bottom: 16px;
+color: #616368;
+}
+.about-us-text-section button{
+background: #2b8ded;
+color: #fff;
+font-weight: 500;
+font-size: 15px;
+border: 1px solid #2b8ded;
+padding: 8px 30px;
+border-radius: 50px;
+transition: linear all 0.3s;
+margin-top: 20px;
+}
+.about-us-text-section button:hover{
+background-color: #ffffff;
+color: #2b8ded;
+transition: linear all 0.3s;
+}
+/* About Page Section 2 End  */
+/* ****************************************** */
+/* About Page Section 3 Start  */
+/* Our Team Section */
+.ourteam-outer{
+padding: 0 0 90px 0; 
+}
+.our-team-text h4{
+font-size: 32px;
+color: #242f51;
+font-weight: 600;
+}
+.our-team-text p{
+font-weight: 500;
+font-size: 18px;
+color: #999999;
+}
+.our-team-card-outer{
+background-color: #eaf3fa;
+height: auto;
+margin: 150px 0 50px 0;
+padding: 0 0 60px 0;
+}
+.our-team-card img{
+width: 100%;
+}
+.our-team-card{
+padding: 0;
+box-shadow: 0 0 16px 8px rgb(0 0 0 / 9%);
+background: #fff;
+margin-top: -200px;
+margin-right: 30px;
+
+}
+.our-team-card-body  {
+padding: 0;
+text-align: center;
+}
+.our-team-card-body h5{
+font-weight: 500;
+font-size: 25px;
+color: #2b8ded;
+margin: 30px 0 5px;
+line-height: 30px;
+}
+.our-team-card-body span{
+font-size: 20px;
+font-weight: 400;
+color: #adadad;
+display: block;
+}
+.our-team-card-body ul{
+    padding: 20px 0 10px 0;
+    margin: 0;
+}
+.our-team-card-body ul li {
+display: inline-block;
+list-style: none;
+padding: 10px 0;
+}
+.our-team-card-body .icon{
+height: 40px;
+width: 40px;
+background: transparent;
+text-align: center;
+border-radius: 50px;
+line-height: 40px;
+display: inline-block;
+margin: 0 5px;
+border: 1px solid #006fba;
+color: #006fba;
+transition: linear all 0.3s;
+cursor: pointer;
+}
+.our-team-card-body .icon:hover{
+color: #242f51;
+transition: linear all 0.3s;
+border: 1px solid #242f51;
+}
+.our-team-card-body .socia-icon{
+margin: 0 auto 0;
+text-align: center;
+width: 100%;
+padding: 0 0 0px;
+}
+/* Our Team Section */
+/* About Page Section 3 Start  */
+/* ******************************************** */
+/* About Page Section 4 Start  */
+/* Text And Image  */
+.text-and-image-outer{
+margin: 90px 0;
+}
+.text-and-image-outer img{
+width: 100%;
+margin: 20px 0;
+}
+.text-and-image-outer .text-box{
+padding: 15px 25px;
+}
+.text-and-image-outer .text-box p{
+font-weight: 400;
+font-size: 15px;
+color: #000;
+margin: 150px 0 35px;
+}
+.text-and-image-outer .text-box button{
+background: #2b8ded;
+border: 1px solid #2b8ded;
+padding: 8px 60px;
+border-radius: 50px;
+font-size: 15px;
+color: #fff;
+font-weight: bold;
+transition: linear all 0.3s;
+}
+.text-and-image-outer .text-box button:hover{
+transition: linear all 0.3s;
+color: #2b8ded;
+background-color: #fff;
+}
+/* Text And Image  */
+/* About Page Section 4 End  */
+
+/* This Media Media Work Query From 991 to 768   Start */
+@media screen and (max-width: 991px) and (min-width: 768px){
+/* About Page  Section 1 Start */
+.about-us-banner .about-us-banner-title h4{
+padding: 105px 15px;
+}
+/* About Page  Section 1 End ********** */
+/* ************************************ */
+/* About Page  Section 2 Start */
+.about-us-text-section{
+padding-right: 15px;
+}
+.about-us-text-section h4{
+font-size: 23px;
+font-weight: 700;
+}
+.about-us-image-section{
+padding-left: 20px;
+}
+.about-us-text-section p{
+font-size: 14px;    
+}
+/* About Page  Section 2 End */
+/* ************************************ */
+/* About Page  Section 3 Start */
+.ourteam-outer{
+padding: 0 ; 
+}
+.our-team-text{
+padding-left: 20px;
+}
+.our-team-text p{
+font-size: 15px;
+margin: 0;
+}
+.our-team-card-outer{
+margin: 80px 0 50px 0;
+padding: 0 0 50px 20px;
+}
+.our-team-card{
+margin-top: -30px;
+}
+.our-team-card-body h5{
+font-size: 20px;
+}
+.our-team-card-body span{
+font-size: 18px;
+}
+.our-team-card-body ul{
+padding: 10px 0 10px 0;
+margin: 0;
+}
+.our-team-card-body .icon{
+height: 30px;
+width: 30px;
+line-height: 30px;
+}
+/* About Page  Section 3 End */
+/* ************************************** */
+/* About Page  Section 4 Start */
+.text-and-image-outer{
+margin: 10px 0 60px 0;
+}
+.text-and-image-outer img{
+width: 100%;
+margin: 20px 0 40px 8px;
+padding-right: 8px;
+}
+.text-and-image-outer .text-box{
+padding: 15px 15px;
+
+}
+.text-and-image-outer .text-box p{
+margin: 3px 0 40px;
+}
+/* About Page  Section 4 End */
+/* ************************************ */
+}
+/* This Media Media Work Query From 991 to 768   End */
+
+
+/* This Media Media Work Query From 767 to 481   Start */
+@media screen and (max-width: 767px) and (min-width: 481px){
+/* About Page  Section 1 Start */
+.about-us-banner .about-us-banner-title h4{
+padding: 105px 15px;
+}
+
+/* About Page  Section 1 End ********** */
+/* ************************************ */
+/* About Page  Section 2 Start */
+.about-section-2-outer {
+padding: 60px 0;
+}
+.about-section-2-outer .about-us-image-section{
+/* margin: 0 auto; */
+padding-left: 0;
+margin: 0  auto;
+width: 80%;
+}
+.about-section-2-outer .about-us-image-section img{
+width: 100%;
+}
+.about-us-text-section{
+width: 80%;
+margin: 30px auto 0; 
+padding: 0;
+}
+.about-us-text-section h4{
+font-size: 23px;
+font-weight: 700;
+}
+.about-us-text-section p{
+font-size: 14px;    
+}
+/* About Page  Section 2 End */
+/* ************************************ */
+/* About Page  Section 3 Start */
+.ourteam-outer{
+padding: 0 ; 
+}
+.our-team-text{
+padding-left: 0;
+width: 80%;
+margin: 0 auto;
+}
+.our-team-text h4{
+    font-size: 25px;
+}
+.our-team-text p{
+font-size: 15px;
+margin: 0;
+}
+.our-team-card-outer{
+margin: 35px 0 50px 0;
+padding: 30px 0 30px 20px;
+}
+.our-team-card{
+width: 80%;
+margin: 0 auto 25px;
+}
+.our-team-card-body h5{
+font-size: 20px;
+}
+.our-team-card-body span{
+font-size: 18px;
+}
+.our-team-card-body ul{
+padding: 10px 0 10px 0;
+margin: 0;
+}
+.our-team-card-body .icon{
+height: 30px;
+width: 30px;
+line-height: 30px;
+}
+/* About Page  Section 3 End */
+/* ************************************** */
+/* About Page  Section 4 Start */
+.text-and-image-outer{
+width: 80%;
+margin: 10px auto 60px ;
+}
+
+.text-and-image-outer img{
+width: 100%;
+margin: 20px 0 40px 8px;
+padding-right: 8px;
+}
+.text-and-image-outer .text-box{
+padding: 15px 15px;
+}
+.text-and-image-outer .text-box p{
+margin: 3px 0 40px;
+}
+/* About Page  Section 4 End */
+/* ************************************ */
+}
+/* This Media Media Work Query From 767 to 481   End */
+
+
+/* This Media Media Work Query From 480 to 320   Start */
+@media screen and (max-width: 480px) and (min-width: 320px){
+.about-us-banner{
+margin-top: 10px;   
+}
+
+/* About Page  Section 1 Start */
+.about-us-banner .about-us-banner-title h4{
+padding: 60px 15px;
+font-size: 30px;
+}
+/* About Page  Section 1 End ********** */
+/* ************************************ */
+/* About Page  Section 2 Start */
+.about-section-2-outer {
+padding: 30px 0;
+}
+.about-section-2-outer .about-us-image-section{
+padding-left: 0;
+margin: 0  auto;
+width: 92%;
+}
+.about-section-2-outer .about-us-image-section img{
+width: 100%;
+}
+.about-us-text-section{
+width: 92%;
+margin: 30px auto 0; 
+padding: 0;
+}
+.about-us-text-section h4{
+font-size: 19px;
+font-weight: 700;
+}
+.about-us-text-section p{
+font-size: 13px;    
+}
+.about-us-text-section button{
+font-size: 13px;
+padding: 6px 25px;
+}
+/* About Page  Section 2 End */
+/* ************************************ */
+/* About Page  Section 3 Start */
+.ourteam-outer{
+padding: 0 ; 
+}
+.our-team-text{
+padding-left: 0;
+width: 92%;
+margin: 0 auto;
+}
+.our-team-text h4{
+font-size: 19px;
+}
+.our-team-text p{
+font-size: 13px;
+margin: 0;
+}
+.our-team-card-outer{
+margin: 35px 0 10px 0;
+padding: 30px 0 30px 0;
+}
+.our-team-card{
+width: 92%;
+margin: 0 auto 25px;
+}
+.our-team-card-body h5{
+font-size: 18px;
+}
+.our-team-card-body span{
+font-size: 16px;
+}
+.our-team-card-body ul{
+padding: 10px 0 10px 0;
+margin: 0;
+}
+.our-team-card-body .icon{
+height: 30px;
+width: 30px;
+line-height: 30px;
+}
+/* About Page  Section 3 End */
+/* ************************************** */
+/* About Page  Section 4 Start */
+.text-and-image-outer{
+width: 92%;
+margin: 10px auto 60px ;
+}
+
+.text-and-image-outer img{
+width: 100%;
+/* margin: 20px 0 40px 8px; */
+margin: 0;
+padding: 25px 0 25px 0;
+}
+.text-and-image-outer .text-box{
+padding: 0 0 0;
+
+}
+.text-and-image-outer .text-box p{
+margin: 5px 0 25px;
+}
+.text-and-image-outer .text-box button{
+font-size: 13px;
+}
+/* About Page  Section 4 End */
+/* ************************************ */
+}
+/* This Media Media Work Query From 480 to 320   End */

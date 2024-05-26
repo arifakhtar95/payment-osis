@@ -1,0 +1,576 @@
+
+/*  Home Page Section 1 Start */
+.home-content-1-outer{
+background-image: url(../Images/slide-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+height: 548px;
+}
+.home-content-1-inner{
+padding: 120px 0 115px 120px;
+text-align: left;
+}
+.home-content-1-inner .title-caption{
+max-width: 500px;
+}
+
+.home-content-1-inner .title-caption h2{   
+color: #242f51;       
+font-weight: 400;
+margin: 15px 0;
+}
+.home-content-1-inner .title-caption h2 span{
+font-size: 38px;
+font-weight: 700;    
+font-family: 'Poppins', sans-serif;       
+}
+.home-content-1-inner .title-caption p{
+margin-bottom: 30px;
+opacity: 0.9;
+}
+.home-content-1-inner .title-caption .slide-btn-1{
+background-color: #2b8ded;
+color: #ffffff;
+text-transform: uppercase;
+font-size: 14px;
+border-radius: 50px;
+padding: 9px 25px;
+border: 2px solid #2b8ded;
+}
+.home-content-1-inner .title-caption .slide-btn-2{
+background-color: #ffffff;
+color: #2b8ded;
+text-transform: uppercase;
+font-size: 14px;
+border-radius: 50px;
+padding: 9px 25px;
+border: 2px solid #2b8ded;
+margin-left: 15px;
+}
+.home-content-1-inner .title-caption .slide-btn-1:hover{
+color: #007bff;
+background-color: transparent;
+transition: 0.7s;
+}
+.home-content-1-inner .title-caption .slide-btn-2:hover{
+color: #ffffff;
+background-color: #007bff;
+transition: 0.7s;
+}
+.home-content-2-inner{
+background-image: url(../Images/slide-2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+height: 548px;
+}
+/*  Home Page Section 1 End */
+/* ********************************* */
+/*  Home Page Section 2 Start */
+/* Brands That Trust Our Clients */
+.payment-brand-outer{
+margin-bottom: 90px;
+background-color: #f8fcff;
+box-shadow: 0 0 0 #f8f8f8;
+padding: 90px 0;
+}
+.brand-title{
+color: #242f51;
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 25px;
+text-align: center;
+}
+.payment-brand-outer .brand-images{
+margin: 0 auto ;
+text-align: center;
+} 
+.payment-col-2{
+display: inline-block;
+padding: 0 15px;
+}
+.payment-col-2 img{
+width: 80%;
+}
+img{
+border-style: none;
+height: auto;
+max-width: 100%;
+vertical-align: middle;
+}
+/* Brands That Trust Our Clients */
+/*  Home Page Section 2 End */
+/* ********************************** */
+/*  Home Page Section 3 Start */
+/* Meet Client Satisfaction by using product */
+.payment-testimonials{
+margin-bottom: 90px;
+}
+.testimonial-left:after{
+box-sizing: border-box;
+}
+.testimonial-left img{
+padding: 15px ;
+width: 90%;
+}
+
+/* tESTIMONIAL RIGHT */
+
+.testimonial-right .testimonial-haeder .testimonial-title{
+color: #242f51;
+font-size: 34px;
+font-weight: 600;;
+}
+
+.testimonial-card{
+padding: 8px 0;
+user-select: none;
+}
+.testimonial-card ul {
+padding: 0;
+}
+.testimonial-card ul li{
+list-style: none;
+display: inline-block;
+text-align: left;
+padding: 0;
+}
+.testimonial-card ul li .fa ,.fa-star{
+font-size: 25px;
+color: #ffcc00;
+}
+.testimonial-card .card-body{
+padding:0;
+}
+.testimonial-card .card-body p{
+font-size: 15px;
+font-weight: 400;   
+padding: 0;
+margin: 0;
+margin-bottom: 10px;
+}
+.testimonial-card .card-body p span{
+color: #2b8ded;
+}
+.testimonial-card .card-body .card-bottom{
+display: flex;
+flex-direction: row;
+margin-top: 25px;
+}
+.testimonial-card .card-body .card-bottom .left{
+width: 100px;
+overflow: hidden;
+}
+.testimonial-card .card-body .card-bottom .left img{
+border-radius: 50px;
+
+}
+.testimonial-card .card-body .card-bottom .right{
+width: 100%;
+padding-top: 18px  ;
+}
+.testimonial-card .card-body .card-bottom .right span{
+padding: 25px 15px;
+font-size: 15px;
+color: #007bff;
+font-weight: 500;
+}
+.testimonial-card .card-body .card-bottom .right p{
+padding: 0 15px;
+font-size: 15px;
+font-weight: 500;
+}
+.testimonial-card .testimonial-card-title{
+font-size: 19px;
+font-weight: 600;
+}
+.carousel-indicators [data-bs-target] {
+display: none;
+}
+.carousel-control-prev-icon {
+display: none;
+}
+.carousel-control-next-icon {
+display: none;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+display: none;
+}
+
+/* Meet Client Satisfaction by using product */
+/*  Home Page Section 3 End */
+/* ******************************************************* */
+/*  Home Page Section 4 Start */
+/* Request a Free Savings Analysis   */
+
+.request-section-inner{
+padding: 15px;
+width: 80%;
+margin: 0 auto;
+}
+.request-section-inner .title{
+color: #242f51;
+font-size: 32px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.request-section-inner p{
+margin-bottom: 30px;
+font-size: 18px;    
+color: #616368;;
+}
+.request-section-inner .slide-btn-2{
+background-color: #ffffff;
+color: #2b8ded;
+text-transform: uppercase;
+font-size: 14px;
+border-radius: 50px;
+padding: 9px 25px;
+border: 2px solid #2b8ded;
+margin-left: 0;
+}
+.request-section-inner .slide-btn-2:hover{
+color: #ffffff;
+background-color: #007bff;
+transition: 0.7s;
+}
+.request-img-section{
+padding: 15px;
+text-align: center;
+}
+.request-img-section img{
+width: 400px;
+height: 360px;
+margin: 0;
+padding: 0;
+}
+/* Request a Free Savings Analysis   */
+/*  Home Page Section 4 End */
+/* ******************************************************* */
+/*  Home Page Section 5 Start */
+/* Payments Tab  */
+.home_tabs_outer{
+background-color: #eaf3fa;
+padding: 90px 0;
+}
+.payment-top-padding{
+padding-top: 100px;   
+}
+.payment-image-content{
+margin: 0 auto;
+/* width: 80%; */
+text-align: center;
+}
+.payment-image-content img{
+width: 99.99%;
+margin: 5px;
+}
+.tablink {
+background-color: #fff;
+color: white;
+/* float: left; */
+border: none;
+outline: none;
+cursor: pointer;
+padding: 25px 16px;
+font-size: 17px;
+color: #242f51;
+width: 100%;
+margin: 0;
+font-weight: 800;
+}
+.tablink:hover {
+background-color: #eaf3fa;
+transition: 0.7s;
+}
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+color: #242f51;
+display: none;
+padding: 20px 7px;
+}
+.tabcontent p{
+margin: 35px 0;    
+font-weight: 400;
+font-size: 18px;
+}
+.tabcontent .slide-btn-2{
+background-color: #ffffff;
+color: #2b8ded;
+text-transform: uppercase;
+font-size: 14px;
+border-radius: 50px;
+padding: 9px 25px;
+border: 2px solid #2b8ded;
+margin-left: 0;
+font-weight: 600;
+}
+.tabcontent .slide-btn-2:hover{
+color: #ffffff;
+background-color: #007bff;
+transition: 0.7s;
+}
+#Home {background-color: #eaf3fa;
+}
+#News {background-color: #eaf3fa;
+display: block;
+}
+#Contact {background-color: #eaf3fa;}
+#About {background-color: #eaf3fa;}
+#News-btn{
+background-color: #eaf3fa;
+transition: 0.7s;
+}
+#News-btn:hover{
+background-color: #eaf3fa;     
+transition: 0.7s; 
+}
+#Home h3,#News h3,#Contact h3,#About h3{
+font-size: 22px;
+font-weight: 600;
+}
+/* Payments Tab  */
+/*  Home Page Section 5 End */
+/* ************************************** */
+/*  Home Page Section 6 Start */
+/* Service How Will Paymentoasis Save Me Money? */
+.service-container{
+margin: 90px 0;
+}   
+.service-title{
+text-align: center;
+color: #053b72;   
+}
+.service-title h3{
+font-size: 32px;
+font-family: Georgia, serif;
+font-weight: 600;
+}
+.service-title p{
+font-size: 18px;
+font-family: Georgia, serif;
+font-weight: 400;
+padding: 20px 0;
+}
+.service-top {
+text-align: center;
+padding: 0;
+margin: 0;
+}
+.service-top img{
+/* width: 94%; */
+/* margin: 0 25px; */
+padding: 0 15px;
+}
+.card{
+border: none;
+margin: 50px auto 0;
+width: 80%;
+}   
+.card figure{
+background-color: #e0effd;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+text-align: center;
+padding-top: 25px;
+margin-bottom: 25px;    
+margin: 0 auto 25px;
+}
+.card figure img{
+width: 55px;
+height: 48px;
+}
+.card .card-title{
+font-size: 22px;
+font-weight: 700;
+}
+.card .card-text{
+font-size: 16px;
+}
+/* Service How Will Paymentoasis Save Me Money? */
+/*  Home Page Section 6 End */
+/* ****************************************** */
+/* Home Page Section 7 Start */
+/* Slider Section  Solutions for all Industries ********* */
+.slider-outer{
+background-color: #eaf3fa;
+padding: 60px 0 90px;
+margin: 50px 0;
+}
+.slider-outer h1{
+font-size: 32px;
+color: #242f51;
+font-weight: 600;
+margin-bottom: 35px;
+text-align: center;
+}
+
+#main-slider-container{
+width: 93%;
+height: 300px;
+position: relative;
+display: flex;
+align-items: center ;
+margin: 0 auto;
+}
+#main-slider-container #slider{
+width: 90%;
+height: 100%;
+margin: 0 auto;
+white-space: nowrap;
+overflow-x: scroll;
+scrollbar-width: none;
+scroll-behavior: smooth ;
+transition: all ease-in-out;
+}
+#main-slider-container #slider::-webkit-scrollbar{
+display: none;
+}
+#main-slider-container .slider-icon.left  , #main-slider-container .slider-icon.right{
+vertical-align: middle;
+font-size: 50px;
+background-color: white;
+border-radius: 100%;
+position: absolute;
+opacity: 0.5;
+transition: 0.5s;
+cursor: pointer;
+}
+#main-slider-container .slider-icon.left:hover , #main-slider-container .slider-icon.right:hover{
+opacity: 1;
+transition: 0.5s;
+}
+#main-slider-container .slider-icon.left{
+left: 44%;
+bottom: -70px;
+}
+#main-slider-container .slider-icon.right{
+right: 44%;
+bottom: -70px;
+}
+#main-slider-container .slider-card{
+width: 250px;
+height: 285px;
+border-radius: 5px;  
+display: inline-block;
+margin: 0 10px 0 10px;
+cursor: pointer;
+overflow-x: hidden ;
+/* background-color: white; */
+}
+#main-slider-container .slider-card-images{
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+/* background-repeat: no-repeat; */
+}
+#main-slider-container .slider-card-title{
+font-size: 20px;
+color: #ffffff;
+font-weight: 600;
+margin: 0;  
+padding: 0 10px 0;
+}
+#main-slider-container .slider-card-body{
+position: relative;
+top: 82.8%;
+background: rgba(0,0,0,0.6);
+color: #ffffff;
+padding: 0;
+}
+
+/* Slider Section  Solutions for all Industries  Do it Later ********* */
+/* Home Page Section 7 End */
+/* ************************************************* */
+/* Home Page Section 8 Start */
+/* The Merchant Difference */
+.Merchant-outer{
+margin-bottom: -220px;
+z-index: 99;
+}
+
+.merchant-difference{
+padding: 0 15px;
+margin: 0;
+text-align: left;
+max-width: 440px;
+}
+.merchant-difference h3{
+font-size: 35px;
+}
+.merchant-difference ul{
+padding: 0;
+}
+.merchant-difference ul li{
+padding: 6px 0;
+list-style: none;
+font-size: 17px;
+color: #364d68;
+}
+.merchant-difference ul li .fa{
+font-size: 15px;
+}
+.merchant-difference ul li .fa-check{
+padding: 0;
+margin: 0;
+margin-right: 10px;
+color: #007bff;
+}
+/* Sign Up Form */
+.sign-up-form{
+max-width: 440px;    
+padding: 35px 20px 50px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+z-index: 99;
+border-radius: 8px;
+text-align: center;
+margin-bottom: 25px;
+background-color: #ffffff;
+}
+.sign-up-form h5{
+margin-bottom: 30px;
+text-align: center;
+font-size: 35px;
+}
+.sign-up-form input{
+padding: 7px 15px;
+margin: 0 0 12px;
+width: 100%;
+border: 1px solid #e9ebf0;
+border-radius: 5px;
+}
+.sign-up-form input:focus {
+outline-color: #e9ebf0;
+}
+.sign-up-form input:nth-child(3){
+width: 49%;
+float: left;
+}
+.sign-up-form input:nth-child(4){
+width: 49%;
+float: right;
+}
+.sign-up-form button{
+padding: 9px 25px;
+text-align: center;
+text-transform: uppercase;
+font-size: 15px;
+font-family: bold;
+margin: 25px auto;
+border-radius: 25px;
+background-color: #2b8ded;
+border: 2px solid #2b8ded;
+color: white;
+transition: 0.7s;
+}
+.sign-up-form button:hover{
+background-color: #ffffff;
+color: #007bff;
+transition: 0.7s;
+}
+/* The Merchant Difference */
+/* Home Page Section 8 End */
+/* ************************************************* */

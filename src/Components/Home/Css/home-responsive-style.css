@@ -1,0 +1,387 @@
+/* @media screen and (max-width: 1200px) and (min-width: 992px){
+#main-slider-container{
+width: 100%;
+}
+} */
+
+/* This Media Query Work From Max-Width 991px to Min-Width 768px */
+@media screen and (max-width: 991px) and (min-width: 768px){
+/*  Home Page Section 1 Start */
+.home-content-2-inner{
+display: none;
+}
+.home-content-1-inner{
+padding: 100px 30px;
+text-align: left;
+}
+.home-content-1-inner .title-caption{
+max-width: unset;
+text-align: center;
+}
+/*  Home Page Section 1 End */
+/* ***************************** */
+/*  Home Page Section 3 Start */
+.testimonial-right{
+width: 100%;
+margin: 0 auto;
+text-align: left 
+}
+.testimonial-left{
+text-align: center;
+padding: 0;
+margin: 0;
+}
+.testimonial-left img{
+padding: 0;
+width: 98%;
+}
+/*  Home Page Section 3 End */
+}
+
+/* This Media Query Work From Max-Width 767px to Minn-Width 481px */
+@media screen and (max-width: 767px) and (min-width: 481px){
+/* Home Page  Section 1 Start   */ 
+.home-content-2-inner{
+display: none;
+}
+.home-content-1-inner{
+padding: 100px 30px;
+text-align: left;
+}   
+.home-content-1-inner .title-caption{
+max-width: unset;
+text-align: center;
+}
+.home-content-1-inner .title-caption h2{   
+color: #242f51;       
+font-weight: 400;
+margin: 15px 0;
+font-size: 27px;
+}
+.home-content-1-inner .title-caption h2 span{
+font-size: 23px;
+font-weight: 700;    
+font-family: 'Poppins', sans-serif;       
+}
+/* Home Page  Section 1 End   */
+/* ********************************************** */
+/* Home Page  Section 2 Start  
+Brands That Trust Our Clients */
+.testimonial-left{
+width: 90%;
+margin: 0 auto;
+}
+.testimonial-right  {
+width: 70%;
+margin: 30px auto;
+}
+/* Brands That Trust Our Clients */
+/* Home Page  Section 2 End   */
+/* ******************************************** */
+/* Home Page Section 8 Start */
+/* The Merchant Difference */
+.Merchant-outer{
+margin-bottom: 0;
+z-index: 99;
+}
+
+.merchant-difference{
+margin: 0 auto;
+max-width: 440px;
+padding: 0;
+}
+.sign-up-form{
+margin: 20px auto 25px;
+}
+.sign-up-form input:nth-child(3){
+width: 100%;
+float: none;
+}
+.sign-up-form input:nth-child(4){
+width: 100%;
+float: none;
+}
+/* The Merchant Difference */
+/* Home Page Section 8 End */
+/* ******************************************** */
+}
+
+/* This Media Query Work From Max-Width 767px to Minn-Width 481px */
+@media screen and (max-width: 480px) and (min-width: 320px){
+/* Home Page  Section 1 Start   */
+.home-content-2-inner{
+display: none;
+}
+.home-content-1-inner{
+padding: 30px 10px;    
+text-align: left;
+}
+.home-content-1-inner .title-caption{
+max-width: unset;
+text-align: center;
+}
+.home-content-1-inner .title-caption h2{   
+color: #242f51;       
+font-weight: 400;
+margin: 15px 0;
+font-size: 18px;
+}
+.home-content-1-inner .title-caption h2 span{
+font-size: 15px;
+font-weight: 700;    
+font-family: 'Poppins', sans-serif;       
+}
+/* Button  */
+.home-content-1-inner .title-caption .slide-btn-1{
+font-size: 12px;
+border-radius: 50px;
+width: 99%;
+padding: 9px 25px;
+border: 2px solid #2b8ded;
+}
+.home-content-1-inner .title-caption .slide-btn-2{    
+font-size: 12px;  
+width: 99%;
+padding: 9px 25px;
+border: 2px solid #2b8ded;
+margin-left: 0;
+margin-top: 15px;
+}
+/* Home Page  Section 1 End   */
+/* ********************************************** */
+/* Home Page  Section 2 Start  
+Brands That Trust Our Clients */
+.payment-brand-outer{
+margin: 20px 0;
+background-color: #f8fcff;
+box-shadow: 0 0 0 #f8f8f8;
+padding: 30px 0;
+}
+.brand-title{  
+font-size: 18px;
+font-weight: 500;
+}
+/* Brands That Trust Our Clients */
+/* Home Page  Section 2 End 
+/* ******************************************* */
+/*  Home Page  Section 3 Start  
+Meet Client Satisfaction by using product */
+.testimonial-title{
+font-size: 19px;
+}
+.testimonial-card .testimonial-card-title{
+font-size: 17px;
+}
+.testimonial-card ul li .fa ,.fa-star{
+font-size: 20px;
+}
+.testimonial-card .card-body p{
+font-size: 12.4px;
+}
+.testimonial-card .card-body .card-bottom .right span{
+font-size: 14px;
+}
+.testimonial-card .card-body .card-bottom .right p{
+font-size: 13px;
+}
+.testimonial-left  img{
+width: 95%;
+text-align: center;
+}
+.testimonial-right  {
+width: 90%;
+margin: 0 auto;
+}
+/*  Meet Client Satisfaction by using product */
+/*  Home Page  Section 3 End */
+/* ************************************************ */
+/* Home Page  Section 4 Start 
+Request a Free Savings Analysis*/
+.request-section-inner{
+width: 94%;
+margin: 0 auto;
+}
+.request-section-inner .title{
+font-size: 18px;
+font-weight: 600;
+}
+.request-section-inner p{
+margin-bottom: 10px;
+font-size: 13px;    
+color: #616368;;
+}
+.request-section-inner .slide-btn-2{
+font-size: 10px;
+padding: 5px 11px;
+}
+/* Request a Free Savings Analysis 
+ Home Page  Section 4 End */
+/* ********************************************** */
+/* Home Page  Section 5 Start */
+/* Payment Tabs Section  */
+.home_tabs_outer{
+padding: 50px 0;
+}
+.payment-top-padding{
+padding-top: 50px;   
+}
+.payment-image-content img{
+width: 100%;
+padding: 0;
+margin: 0;
+}
+.tablink {
+padding: 20px 14px; 
+font-size: 13px;
+font-weight: 600;
+}
+.tabcontent p{
+margin: 15px 10px;    
+font-size: 13px;    
+}
+.tabcontent .slide-btn-2{
+font-size: 11px;
+padding: 5px 13px;
+margin: 0 10px;
+}
+#Home h3,#News h3,#Contact h3,#About h3{
+font-size: 17px;
+font-weight: 400;
+margin: 0 10px;
+}
+/* Payment Tab Section  */
+/* Home Page  Section 5 End */
+/* ********************************************** */
+/* Home Page  Section 6 Start */
+/* How Will Paymentoasis Save Me Money? */
+/* Service Section */
+.service-container{
+    margin: 20px 0;
+}  
+.service-title h3 {
+font-size: 16px;
+font-family: Georgia, serif;
+font-weight: 600;
+}
+.service-title p{
+font-size: 14px;
+font-family: Georgia, serif;
+font-weight: 400;
+padding: 10px 0;
+}
+.card{
+border: none;
+margin: 20px auto;
+width: 100%;
+padding: 0;
+}  
+.card figure{
+width: 80px;
+height: 80px;
+text-align: center;
+padding-top: 20px;
+margin-bottom: 15px;
+margin: 0 auto 10px;
+}
+.card figure img{
+width: 45px;
+height: 38px;
+}
+.card .card-title{
+font-size: 16px;
+font-weight: 600;   
+}
+.card .card-text{
+font-size: 14px;
+}
+/* How Will Paymentoasis Save Me Money? */
+/* Home Page  Section 6 End */
+/* ******************************************** */
+/* Home Page Section 7 Start */
+/* Slider Section  Solutions for all Industries ********* */
+.slider-outer h1{
+    font-size: 24px;
+}
+#main-slider-container{
+width: 90%;
+height: auto;
+position: relative;
+display: flex;
+align-items: center ;
+margin: 0 auto;
+}
+#main-slider-container #slider{
+width: 100%;
+height: auto;
+margin: 0 auto;
+white-space: nowrap;
+overflow-x: scroll;
+scrollbar-width: none;
+scroll-behavior: smooth ;
+transition: all ease-in-out;
+}
+#main-slider-container .slider-icon.left{
+left: 30%;
+bottom: -70px;
+}
+#main-slider-container .slider-icon.right{
+right: 30%;
+bottom: -70px;
+}
+#main-slider-container .slider-card{
+width: 90%;
+height: 285px;
+border-radius: 5px;  
+display: inline-block;
+margin: 0 6% 0 5%;
+cursor: pointer;
+overflow-x: hidden ;
+/* background-color: white; */
+}
+
+/* Slider Section  Solutions for all Industries ********* */
+/* Home Page Section 7 End */
+/* ******************************************************** */
+/* Home Page Section 8 Start */
+/* The Merchant Difference  */
+.Merchant-outer{
+margin-bottom: 0;
+z-index: 99;
+}
+
+.merchant-difference{
+margin: 0 auto;
+max-width: unset;
+padding: 0 8px;
+}
+.merchant-difference h3 {
+font-size: 24px;
+}
+.merchant-difference ul li {
+padding: 6px 0;
+list-style: none;
+font-size: 14px;
+color: #364d68;
+}
+.sign-up-form h5{
+    font-size: 25px;
+}
+.sign-up-form{
+margin: 20px auto 25px;
+}
+.sign-up-form input:nth-child(3){
+width: 100%;
+float: none;
+}
+.sign-up-form input:nth-child(4){
+width: 100%;
+float: none;
+}  
+/* Home Page Section 8 End */
+/* The Merchant Difference  */
+/* ****************************************** */
+}
+
+
+
+
